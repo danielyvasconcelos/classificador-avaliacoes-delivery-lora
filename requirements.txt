@@ -1,0 +1,13 @@
+# Dependências do projeto (versões fixadas na etapa em que forem necessárias).
+# No Colab, torch e transformers já vêm instalados; instalamos o restante.
+pandas
+scikit-learn
+matplotlib
+seaborn
+datasets
+transformers
+peft
+accelerate
+evaluate
+huggingface_hub
+jupyter

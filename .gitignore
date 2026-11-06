@@ -1,0 +1,41 @@
+# --- Documento de estudo pessoal (fica só na minha máquina) ---
+CONCEITOS.md
+
+# --- Segredos: NUNCA versionar ---
+.env
+*.env
+.env.*
+!.env.example
+hf_token*
+*.token
+
+# --- Dados (licença NC + tamanho): baixar via script, não versionar ---
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Modelos, checkpoints e logs de treino ---
+models/*
+!models/.gitkeep
+checkpoints/
+runs/
+wandb/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# --- Python / ambientes ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- Sistema / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
